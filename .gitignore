@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Configuración local / editores
+.claude/
+.vscode/
+.streamlit/secrets.toml
+
+# Datos (no subir datasets grandes)
+*.csv
+*.parquet
+*.jsonl
+*.ndjson
+data/
